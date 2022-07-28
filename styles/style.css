@@ -30,6 +30,7 @@
     background-color: #161616;
 }
 @media(max-width:567px){
+
     .courses-header{
         width: 90%;
     }
