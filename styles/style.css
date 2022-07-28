@@ -26,6 +26,9 @@
     background: #000;
     opacity: 0.6;
 }
+.footer-bg{
+    background-color: #161616;
+}
 @media(max-width:567px){
     .courses-header{
         width: 90%;
