@@ -86,32 +86,100 @@
           </div>
 
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <!-- carousel banner end -->
 
   </header>
 
+  <main class="container my-5">
+
+    <!-- courses section start  -->
+    <section class="d-flex flex-column align-items-center justify-content-center">
+      <div class="courses-header">
+        <h1 class="fw-bold text-center">Discover Our Popular Courses</h1>
+        <p class="text-center">Here you will find courses that we are providing. See every deatils outline of our
+          courses.</p>
+      </div>
+      <!-- courses list -->
+      <div class="container row row-cols-1 row-cols-lg-2 g-4">
+
+        <div class="card col" ;>
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="images/course/course-1.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text theme-color fw-bolder">Price : 20$</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card col " >
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="images/course/course-1.png" class="img-fluid rounded" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Fundamental Of UI/UX Design</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content.</p>
+                <p class="card-text theme-color fw-bolder">Price : 20$</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div>
+        <button class="btn btn-bg text-white fw-semibold mt-5">View All</button>
+      </div>
+    </section>
+
+    <!-- Resgistration section -->
+    <section class="container border border-0 rounded d-flex flex-column flex-lg-row justify-content-around align-items-center btn-bg my-5 py-4 p-lg-5 text-white">
+      <div class="w-50">
+        <h2 class="fw-bold text-center text-lg-start">Ready to join?</h2>
+        <p class="text-center text-lg-start"><small>If you want to start a course, click on Registration Now. Then a modal will pop-up. then click on Yes and it will give you a Registration form.</small></p>
+      </div>
+      <div>
+        <button class="btn btn-light theme-color fw-semibold" data-bs-toggle="modal" data-bs-target="#registration-modal">Registration Now</button>
+      </div>
+      <div id="registration-modal" class="modal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title text-dark">Registration Confirmation!</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p class="text-dark">Do you really want to registration?</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+              <button type="button" class="btn btn-primary">Yes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
 
 
 

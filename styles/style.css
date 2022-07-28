@@ -12,6 +12,9 @@
 .btn-bg{
     background-color: #289BDE;
 }
+.theme-color{
+    color: #289BDE;
+}
 .carousel-item::before{
     content: "";
     display: block;
@@ -23,14 +26,29 @@
     background: #000;
     opacity: 0.6;
 }
-
-@media(min-width:991px){
+@media(max-width:567px){
+    .courses-header{
+        width: 90%;
+    }
+}
+@media(min-width:567px) and (max-width:991px){
+    .courses-header{
+        width: 80%;
+    }
+}
+@media(min-width:992px){
     .carousel-caption{
         bottom: 130px;
+    }
+    .courses-header{
+        width: 50%;
     }
 }
 @media(min-width:1200px){
     .carousel-caption{
         bottom: 180px;
+    }
+    .courses-header{
+        width: 40%;
     }
 }
