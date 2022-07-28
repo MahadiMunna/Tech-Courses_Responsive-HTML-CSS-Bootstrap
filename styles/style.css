@@ -30,7 +30,21 @@
     background-color: #161616;
 }
 @media(max-width:567px){
-
+    .carousel-caption{
+        padding-bottom: 0;
+    }
+    .carousel-caption h1{
+        font-size: small;
+    }
+    .carousel-caption p{
+        font-size: xx-small;
+        margin-bottom: 0;
+    }
+    .carousel-caption button{
+        font-size: x-small;
+        font-weight: 200;
+        padding: 3px 5px;        
+    }
     .courses-header{
         width: 90%;
     }
