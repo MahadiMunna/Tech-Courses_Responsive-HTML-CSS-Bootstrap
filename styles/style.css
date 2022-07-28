@@ -5,4 +5,32 @@
 .nav-text a{
     color: #777777;
 }
+.btn-outline{
+    color: #289BDE;
+    border: 1px solid #289BDE;
+}
+.btn-bg{
+    background-color: #289BDE;
+}
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #000;
+    opacity: 0.6;
+}
 
+@media(min-width:991px){
+    .carousel-caption{
+        bottom: 130px;
+    }
+}
+@media(min-width:1200px){
+    .carousel-caption{
+        bottom: 180px;
+    }
+}
