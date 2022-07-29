@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .logo-color{
     color: #4A4A4A;;
 }
@@ -11,6 +15,9 @@
 }
 .btn-bg{
     background-color: #289BDE;
+}
+.btn-hover:hover{
+    background-color: #0e3ce4;
 }
 .theme-color{
     color: #289BDE;
@@ -34,10 +41,10 @@
         padding-bottom: 0;
     }
     .carousel-caption h1{
-        font-size: small;
+        font-size: medium;
     }
     .carousel-caption p{
-        font-size: xx-small;
+        font-size: x-small;
         margin-bottom: 0;
     }
     .carousel-caption button{
